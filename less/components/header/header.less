@@ -1,15 +1,15 @@
 header{
     width: 100vw;
     height: 110px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding: 5px 40px;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    border-bottom: 1px solid black;
+    position: fixed;
+    z-index: 3;
+    transition: .3s;
+    top: 0;
     
-    
-
     .logo{
         width: auto;
         height: 100%;
@@ -24,6 +24,7 @@ header{
         height: 100%;
         display: flex;
         align-items: center;
+        color: white;
         
 
         ul {
@@ -35,13 +36,25 @@ header{
 
             li {
                 list-style: none;
-                font-size: 1.5em;
-                color: @primary-color;
-                text-shadow: 1px 1px 1px black;
-                cursor: pointer;
                 height: 100%;
                 display: flex;
                 align-items: center;
+
+                a{
+                    text-decoration: none;
+                    font-size: 1.5em;
+                    color: white;
+                    cursor: pointer;
+                }
+
+                a.scrollNav{
+                    color: @primary-color !important;
+
+                    &:hover{
+                        color: @secondary-color !important;
+                        text-decoration: underline;
+                    }
+                }
 
                 &:hover {
                     text-decoration: underline;
@@ -49,4 +62,8 @@ header{
             }
         }
     }
+}
+
+.scroll{
+    background-color: white;
 }
