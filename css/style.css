@@ -35,13 +35,14 @@ header {
   padding: 5px 40px;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   position: fixed;
   z-index: 3;
   transition: 0.3s;
   top: 0;
 }
 header .logo {
+  margin: 0 40px;
   width: auto;
   height: 100%;
 }
@@ -50,7 +51,7 @@ header .logo img {
   height: 100%;
 }
 header .nav {
-  width: 600px;
+  width: 300px;
   height: 100%;
   display: flex;
   align-items: center;
@@ -87,14 +88,7 @@ header .nav ul li:hover {
 }
 .scroll {
   background-color: white;
-}
-@keyframes diagonal-flow {
-  0% {
-    background-position: 100px 100px;
-  }
-  100% {
-    background-position: -5020px 4096px;
-  }
+  box-shadow: #26394d 0px 20px 30px -10px;
 }
 main {
   width: 100vw;
@@ -135,7 +129,6 @@ main #video-background {
 }
 .height100vh .btnContainer {
   height: auto;
-  z-index: 999 !important;
   display: flex;
   align-items: center;
   justify-content: center;

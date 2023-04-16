@@ -7,7 +7,7 @@ window.addEventListener('scroll', function() {
     if (scrollTop > 0) {
 
       header.classList.add('scroll');
-      header.style.height = '80px'
+      header.style.height = '110px'
       for (var i = 0; i < nav.length; i++) {
         nav[i].classList.add('scrollNav');
       }
