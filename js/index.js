@@ -11,7 +11,7 @@ window.addEventListener('scroll', function() {
       for (var i = 0; i < nav.length; i++) {
         nav[i].classList.add('scrollNav');
       }
-      image.src = "../img/logoBlue.png";
+      image.src = "./img/logoBlue.png";
 
     } else {
 
@@ -20,7 +20,7 @@ window.addEventListener('scroll', function() {
       for (var i = 0; i < nav.length; i++) {
         nav[i].classList.remove('scrollNav');
       }
-      image.src = "../img/logoWhite.png";
+      image.src = "./img/logoWhite.png";
 
     }
   });

@@ -6,13 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "css": "lessc ./less/main.less ./css/style.css",
-    "watchLess": "nodemon -e less -x \"npm run css\"",
+    "less1": "nodemon -e less -x \"npm run css\"",
     "build": "webpack"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "css-loader": "^6.7.1",
+    "emailjs-com": "^3.2.0",
     "lessc": "^1.0.2",
     "style-loader": "^3.3.1"
   },

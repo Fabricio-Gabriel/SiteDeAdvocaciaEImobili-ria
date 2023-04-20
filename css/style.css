@@ -22,7 +22,7 @@ body {
   overflow-x: hidden;
 }
 .pai {
-  height: 100vh;
+  height: 20vh;
   background-color: whitesmoke;
 }
 .oi {
@@ -32,7 +32,7 @@ body {
 header {
   width: 100vw;
   height: 110px;
-  padding: 5px 40px;
+  padding: 5px 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -40,6 +40,9 @@ header {
   z-index: 3;
   transition: 0.3s;
   top: 0;
+  border-bottom: 2px solid #15273c;
+  box-shadow: #e0e0e0 0px 20px 30px -10px;
+  box-shadow: #26394d 0px 20px 30px -10px;
 }
 header .logo {
   margin: 0 40px;
@@ -179,4 +182,93 @@ main #video-background {
 }
 .colorOrange {
   color: #e27602;
+}
+.api-whatsapp {
+  width: 65px;
+  height: 65px;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+}
+.api-whatsapp img {
+  width: 100%;
+  height: 100%;
+}
+.contatoContainer {
+  height: 400px;
+  width: 100vw;
+  background-color: #fff;
+  display: flex;
+  padding: 0px 50px;
+}
+.contatoContainer .contato-p1 {
+  width: 50%;
+  height: 100%;
+}
+.contatoContainer .contato-p1 .email {
+  display: flex;
+}
+.contatoContainer .contato-p1 .email img {
+  height: 30px;
+  width: auto;
+}
+.contatoContainer .contato-p1 .email p {
+  color: black;
+  font-size: 1.3em;
+}
+.contatoContainer .contato-p1 .email a {
+  text-decoration: none;
+}
+.contatoContainer .contato-p1 .numeroTelefone {
+  display: flex;
+  margin-top: 10px;
+}
+.contatoContainer .contato-p1 .numeroTelefone img {
+  height: 30px;
+  width: auto;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.contatoContainer .contato-p1 .numeroTelefone p {
+  color: black;
+  font-size: 1.3em;
+  text-decoration: none;
+}
+.contatoContainer .contato-p2 {
+  width: 50%;
+  height: 100%;
+}
+.contatoContainer .contato-p2 input {
+  width: 100%;
+}
+.contatoContainer .contato-p2 #mensagem {
+  margin-top: 10px;
+  width: 100%;
+  height: 150px;
+  text-align: left;
+  vertical-align: top;
+  resize: none;
+}
+.contatoContainer .contato-p2 .buttonContainer {
+  margin-top: 10px;
+  display: flex;
+  justify-content: end;
+}
+.contatoContainer .contato-p2 .buttonContainer button {
+  padding: 5px;
+  font-size: 1em;
+  background-color: #15273c;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 2px solid black;
+}
+.contatoContainer .contato-p2 .buttonContainer button:hover {
+  color: #15273c;
+  background-color: white;
+}
+footer {
+  background-color: #15273c;
+  height: 400px;
+  width: 100%;
 }
