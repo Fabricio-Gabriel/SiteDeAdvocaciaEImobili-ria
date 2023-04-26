@@ -7,7 +7,11 @@ window.addEventListener('scroll', function() {
     if (scrollTop > 0) {
 
       header.classList.add('scroll');
+<<<<<<< HEAD
+      header.style.height = '90px'
+=======
       header.style.height = '110px'
+>>>>>>> 8ec883af65038e6139e899ec48afc451c0a2ccb0
       for (var i = 0; i < nav.length; i++) {
         nav[i].classList.add('scrollNav');
       }
