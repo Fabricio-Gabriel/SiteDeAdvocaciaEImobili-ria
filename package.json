@@ -6,7 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "css": "lessc ./less/main.less ./css/style.css",
+<<<<<<< HEAD
     "Less": "nodemon -e less -x \"npm run css\"",
+=======
+    "less1": "nodemon -e less -x \"npm run css\"",
+>>>>>>> 8ec883af65038e6139e899ec48afc451c0a2ccb0
     "build": "webpack"
   },
   "author": "",

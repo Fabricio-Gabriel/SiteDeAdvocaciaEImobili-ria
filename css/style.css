@@ -12,6 +12,7 @@
   font-display: swap;
   src: url(https://fonts.gstatic.com/s/alkatra/v3/r05EGLZA5qhCYsyJbuChFuK48MedzngUu7cP.ttf) format('truetype');
 }
+<<<<<<< HEAD
 @font-face {
   font-family: 'Kanit';
   font-style: normal;
@@ -26,6 +27,8 @@
   font-display: swap;
   src: url(https://fonts.gstatic.com/s/kanit/v12/nKKU-Go6G5tXcr5mOCWg.ttf) format('truetype');
 }
+=======
+>>>>>>> 8ec883af65038e6139e899ec48afc451c0a2ccb0
 * {
   margin: 0;
   padding: 0;
@@ -34,7 +37,18 @@
 }
 body {
   overflow-x: hidden;
+<<<<<<< HEAD
   width: 100vw;
+=======
+}
+.pai {
+  height: 20vh;
+  background-color: whitesmoke;
+}
+.oi {
+  height: 100vh;
+  position: relative;
+>>>>>>> 8ec883af65038e6139e899ec48afc451c0a2ccb0
 }
 header {
   width: 100vw;
@@ -48,6 +62,10 @@ header {
   transition: 0.3s;
   top: 0;
   border-bottom: 2px solid #15273c;
+<<<<<<< HEAD
+=======
+  box-shadow: #e0e0e0 0px 20px 30px -10px;
+>>>>>>> 8ec883af65038e6139e899ec48afc451c0a2ccb0
   box-shadow: #26394d 0px 20px 30px -10px;
 }
 header .logo {
@@ -124,11 +142,18 @@ main #video-background {
 .height100vh .textContainer {
   width: 100%;
   height: auto;
+<<<<<<< HEAD
+=======
+  display: flex;
+  align-items: center;
+  justify-content: center;
+>>>>>>> 8ec883af65038e6139e899ec48afc451c0a2ccb0
 }
 .height100vh .textContainer p {
   width: auto;
   height: auto;
   text-align: center;
+<<<<<<< HEAD
   font-size: 2em;
   color: #e0e0e0;
   text-shadow: 16px 22px 11px rgba(17, 17, 17, 0.8);
@@ -140,6 +165,11 @@ main #video-background {
   font-family: 'Kanit', sans-serif;
   font-weight: 500;
   font-style: italic;
+=======
+  font-size: 4em;
+  color: white;
+  text-shadow: 16px 22px 11px rgba(17, 17, 17, 0.8);
+>>>>>>> 8ec883af65038e6139e899ec48afc451c0a2ccb0
 }
 .height100vh .btnContainer {
   height: auto;
@@ -147,7 +177,10 @@ main #video-background {
   align-items: center;
   justify-content: center;
   cursor: pointer;
+<<<<<<< HEAD
   margin-top: 20px;
+=======
+>>>>>>> 8ec883af65038e6139e899ec48afc451c0a2ccb0
 }
 .height100vh .btnContainer .btn {
   position: relative;
@@ -195,6 +228,7 @@ main #video-background {
 .colorOrange {
   color: #e27602;
 }
+<<<<<<< HEAD
 .sobre-nos {
   width: 100vw;
   height: 60vh;
@@ -209,6 +243,8 @@ main #video-background {
   font-size: 3em;
   font-style: italic;
 }
+=======
+>>>>>>> 8ec883af65038e6139e899ec48afc451c0a2ccb0
 .api-whatsapp {
   width: 65px;
   height: 65px;
@@ -220,6 +256,7 @@ main #video-background {
   width: 100%;
   height: 100%;
 }
+<<<<<<< HEAD
 .contato-container {
   height: auto;
   width: 100vw;
@@ -261,16 +298,53 @@ main #video-background {
   margin-top: 10px;
 }
 .contato-container .contato-content .contato-p1 .numeroTelefone img {
+=======
+.contatoContainer {
+  height: 400px;
+  width: 100vw;
+  background-color: #fff;
+  display: flex;
+  padding: 0px 50px;
+}
+.contatoContainer .contato-p1 {
+  width: 50%;
+  height: 100%;
+}
+.contatoContainer .contato-p1 .email {
+  display: flex;
+}
+.contatoContainer .contato-p1 .email img {
+  height: 30px;
+  width: auto;
+}
+.contatoContainer .contato-p1 .email p {
+  color: black;
+  font-size: 1.3em;
+}
+.contatoContainer .contato-p1 .email a {
+  text-decoration: none;
+}
+.contatoContainer .contato-p1 .numeroTelefone {
+  display: flex;
+  margin-top: 10px;
+}
+.contatoContainer .contato-p1 .numeroTelefone img {
+>>>>>>> 8ec883af65038e6139e899ec48afc451c0a2ccb0
   height: 30px;
   width: auto;
   margin-left: 10px;
   margin-right: 10px;
 }
+<<<<<<< HEAD
 .contato-container .contato-content .contato-p1 .numeroTelefone p {
+=======
+.contatoContainer .contato-p1 .numeroTelefone p {
+>>>>>>> 8ec883af65038e6139e899ec48afc451c0a2ccb0
   color: black;
   font-size: 1.3em;
   text-decoration: none;
 }
+<<<<<<< HEAD
 .contato-container .contato-content .contato-p2 {
   width: 50%;
   height: 100%;
@@ -291,11 +365,23 @@ main #video-background {
 .contato-container .contato-content .contato-p2 #mensagem {
   margin-top: 10px;
   padding: 10px;
+=======
+.contatoContainer .contato-p2 {
+  width: 50%;
+  height: 100%;
+}
+.contatoContainer .contato-p2 input {
+  width: 100%;
+}
+.contatoContainer .contato-p2 #mensagem {
+  margin-top: 10px;
+>>>>>>> 8ec883af65038e6139e899ec48afc451c0a2ccb0
   width: 100%;
   height: 150px;
   text-align: left;
   vertical-align: top;
   resize: none;
+<<<<<<< HEAD
   border: 2px solid #ccc;
   border-radius: 5px;
   font-size: 16px;
@@ -307,11 +393,19 @@ main #video-background {
   box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
 }
 .contato-container .contato-content .contato-p2 .buttonContainer {
+=======
+}
+.contatoContainer .contato-p2 .buttonContainer {
+>>>>>>> 8ec883af65038e6139e899ec48afc451c0a2ccb0
   margin-top: 10px;
   display: flex;
   justify-content: end;
 }
+<<<<<<< HEAD
 .contato-container .contato-content .contato-p2 .buttonContainer button {
+=======
+.contatoContainer .contato-p2 .buttonContainer button {
+>>>>>>> 8ec883af65038e6139e899ec48afc451c0a2ccb0
   padding: 5px;
   font-size: 1em;
   background-color: #15273c;
@@ -320,7 +414,11 @@ main #video-background {
   cursor: pointer;
   border: 2px solid black;
 }
+<<<<<<< HEAD
 .contato-container .contato-content .contato-p2 .buttonContainer button:hover {
+=======
+.contatoContainer .contato-p2 .buttonContainer button:hover {
+>>>>>>> 8ec883af65038e6139e899ec48afc451c0a2ccb0
   color: #15273c;
   background-color: white;
 }
@@ -328,6 +426,7 @@ footer {
   background-color: #15273c;
   height: 400px;
   width: 100%;
+<<<<<<< HEAD
   display: flex;
   align-items: center;
   justify-content: center;
@@ -428,4 +527,6 @@ footer .inf-footer-container .footer-content .maps {
   color: white;
   text-decoration: none;
   bottom: 10px;
+=======
+>>>>>>> 8ec883af65038e6139e899ec48afc451c0a2ccb0
 }
