@@ -1,0 +1,121 @@
+.contato-container {
+  height: auto;
+  width: 100vw;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  box-sizing: content-box;
+
+  .contato-content {
+    width: 1200px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    box-sizing: content-box;
+
+    .contato-p1 {
+      width: 50%;
+      height: 100%;
+      align-self: start;
+
+      .email {
+        display: flex;
+
+        img {
+          height: 30px;
+          width: auto;
+        }
+
+        p {
+          color: black;
+          font-size: 1.3em;
+        }
+
+        a {
+          text-decoration: none;
+        }
+      }
+
+      .numeroTelefone {
+        display: flex;
+        margin-top: 10px;
+
+        img {
+          height: 30px;
+          width: auto;
+          margin-left: 10px;
+          margin-right: 10px;
+        }
+
+        p {
+          color: black;
+          font-size: 1.3em;
+          text-decoration: none;
+        }
+      }
+    }
+
+    .contato-p2 {
+      width: 50%;
+      height: 100%;
+
+      input {
+        width: 100%;
+        padding: 10px;
+        border: 2px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+        color: #555;
+        outline: none;
+
+        :focus{
+            border-color: #007bff;
+            box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+        }
+      }
+
+      #mensagem {
+        margin-top: 10px;
+        padding: 10px;
+        width: 100%;
+        height: 150px;
+        text-align: left;
+        vertical-align: top;
+        resize: none;
+        border: 2px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+        color: #555;
+        outline: none;
+
+        :focus{
+            border-color: #007bff;
+            box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+        }
+      }
+
+      .buttonContainer {
+        margin-top: 10px;
+        display: flex;
+        justify-content: end;
+
+        button {
+          padding: 5px;
+          font-size: 1em;
+          background-color: @primary-color;
+          color: white;
+          border-radius: 10px;
+          cursor: pointer;
+          border: 2px solid black;
+
+          &:hover {
+            color: @primary-color;
+            background-color: white;
+          }
+        }
+      }
+    }
+  }
+}
